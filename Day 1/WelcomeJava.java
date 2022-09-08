@@ -6,3 +6,6 @@ public class WelcomeJava {
         /* Print output to STDOUT. Class should be named WelcomeJava. */
     }
 }
+// Output:
+// Hello, World.
+// Hello, Java.
