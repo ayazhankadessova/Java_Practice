@@ -1,25 +1,31 @@
 ## Task 1 (Welcome Java)
 
-Welcome to the world of Java! In this challenge, we practice printing to stdout.
+Welcome to the world of Java! 
+
+#### In this challenge, we practice printing to stdout.
+
 The code stubs in your editor declare a Solution class and a main method. Complete the main method by copying the two lines of code below and pasting them inside the body of your main method.
 
 ```
 System.out.println("Hello, World.");
 System.out.println("Hello, Java.");
 ```
-Input Format
+
+#### Input Format
 
 There is no input for this challenge.
 
-Output Format
+#### Output Format
 
 You must print two lines of output:
 
+```
 Print Hello, World. on the first line.
 
 Print Hello, Java. on the second line.
+```
 
-Sample Output
+- Sample Output
 
 ```
 Hello, World.
@@ -35,27 +41,20 @@ Wikipedia if-else flow chart
 
 Source: Wikipedia
 
-Task 
+#### Given an integer, , perform the following conditional actions:
 
-Given an integer, , perform the following conditional actions:
+1. If  is odd, print Weird
+2. If  is even and in the inclusive range of  to , print Not Weird
+3. If  is even and in the inclusive range of  to , print Weird
+4. If  is even and greater than , print Not Weird
 
-If  is odd, print Weird
-
-If  is even and in the inclusive range of  to , print Not Weird
-
-If  is even and in the inclusive range of  to , print Weird
-
-If  is even and greater than , print Not Weird
-
-Complete the stub code provided in your editor to print whether or not  is weird.
-
-Input Format
+#### Input Format
 
 A single line containing a positive integer, N.
 
 Constraints: 1 <= N <= 100
 
-Output Format
+#### Output Format
 
 Print Weird if the number is weird; otherwise, print Not Weird.
 
@@ -70,12 +69,12 @@ Sample Output 1
 Not Weird
 ```
 
-Explanation
+#### Explanation
 
-Sample Case 0:  
+- Sample Case 0:  
 
 N is odd and odd numbers are weird, so we print Weird.
 
-Sample Case 1:  
+- Sample Case 1:  
 
 N and  is even, so it isn't weird. Thus, we print Not Weird.
