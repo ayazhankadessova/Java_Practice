@@ -30,6 +30,9 @@ Hello, Java.
 
 In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
 Wikipedia if-else flow chart
+
+<img width="382" alt="Screenshot 2022-09-08 at 10 49 09 PM" src="https://user-images.githubusercontent.com/86869537/189154312-cbf0187b-ef5e-4ae1-a4cf-5af220edb5e1.png">
+
 Source: Wikipedia
 
 Task 
