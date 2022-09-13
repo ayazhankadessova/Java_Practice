@@ -77,6 +77,9 @@ For each query, print the corresponding series on a new line. Each series must b
 We have two queries:
 We use a = 0, b = 2, and n=10 to produce some series :
 
+<img width="345" alt="Screenshot 2022-09-14 at 12 46 50 AM" src="https://user-images.githubusercontent.com/86869537/189959774-e43df629-9a47-46ec-8064-4c95c166b17f.png">
+
+
 ... and so on.
 Once we hit n = 10, we print the first ten terms as a single line of space-separated integers.
 
