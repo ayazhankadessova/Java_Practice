@@ -2,7 +2,7 @@ package Day_3;
 
 import java.util.*;
 
-public class Stdin_stdout_II {
+public class Stdin_stdout_I {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
