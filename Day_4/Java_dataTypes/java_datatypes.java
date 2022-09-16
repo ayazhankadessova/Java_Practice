@@ -1,3 +1,4 @@
+package Day_4.Java_dataTypes;
 import java.util.*;
 import java.io.*;
 
