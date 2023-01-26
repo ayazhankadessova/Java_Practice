@@ -1,15 +1,15 @@
-.table {
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
 
-.td, th {
-    border: 1px solid #dddddd;
+td, th {
+    border: 1px solid #690;
     text-align: left;
     padding: 10px;
   }
   
-.tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
   }
