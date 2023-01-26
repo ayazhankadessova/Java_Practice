@@ -116,6 +116,50 @@ echo "<h2>" . $txt1 . "</h2>";
 echo "Study PHP at " . $txt2 . "<br>";
 echo $x + $y;
 
+# 11. Return Data Rype
+$x = 5985;
+var_dump($x);
+
+# array
+$cars = array("Volvo","BMW","Toyota");
+var_dump($cars);
+
+# 12. PHP Object
+class Car {
+  public $color;
+  public $model;
+  public function __construct($color, $model) {
+    $this->color = $color;
+    $this->model = $model;
+  }
+  public function message() {
+    return "My car is a " . $this->color . " " . $this->model . "!";
+  }
+}
+
+$myCar = new Car("black", "Volvo");
+echo "<br>";
+echo $myCar -> message();
+echo "<br>";
+$myCar = new Car("red", "Toyota");
+echo $myCar -> message();
+
+# 13. PHP NULL Value
+echo "<br>";
+$x = "Hello world!";
+$x = null;
+var_dump($x);
+
+/* 14. Common string functions
+strlen(), str_word_count(), strrev()
+strpos() - Search For a Text Within a String. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.
+
+echo strpos("Hello world!", "world"); // outputs 6
+
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+
+*/
+
 ?>
 
 </body>
