@@ -10,7 +10,29 @@ td, th {
     text-align: left;
     padding: 10px;
   }
+caption {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+
+thead {
+	background-color: #333;
+	color: white;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
   
-tr:nth-child(even) {
-    background-color: #dddddd;
+tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+.company {
+    background-color: #36c;
+    color: #fff;
+    text-align: left;
   }
